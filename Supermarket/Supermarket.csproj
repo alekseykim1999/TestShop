@@ -48,6 +48,9 @@
     <Compile Include="Buyers\SimpleBuyer.cs" />
     <Compile Include="Buyers\SmartBuyer.cs" />
     <Compile Include="CashBox.cs" />
+    <Compile Include="Interfaces\Buyer.cs" />
+    <Compile Include="Interfaces\Expirable.cs" />
+    <Compile Include="Interfaces\ICustomerWorkable.cs" />
     <Compile Include="ItemShop\Clothe.cs" />
     <Compile Include="ItemShop\ClotheItem\Mike.cs" />
     <Compile Include="ItemShop\Domestic.cs" />

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Supermarket.Item;
 namespace Supermarket.Item
 {
-    class Food : Item
+    class Food : Item, IExpirable
     {
         public DateTime release_date;
         public int shelf_days;
@@ -20,6 +20,13 @@ namespace Supermarket.Item
         public Food() : base()
         {
 
+        }
+
+        public int getExpiredDate()
+        {
+          
+            TimeSpan remainingDays = DateTime.Today.Subtract(release_date.AddDays(shelf_days));
+            return remainingDays.Days;
         }
 
     }

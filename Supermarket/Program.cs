@@ -18,8 +18,8 @@ namespace Supermarket
             second_item.getInformation();
 
             SmartBuyer buyer_one = new SmartBuyer(1);
-            buyer_one.addItemIntoCart(first_item);
-            buyer_one.addItemIntoCart(second_item);
+            buyer_one.AddItemIntoCart(first_item);
+            buyer_one.AddItemIntoCart(second_item);
             Console.ReadLine();
 
 

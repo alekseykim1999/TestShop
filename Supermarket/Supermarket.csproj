@@ -52,8 +52,10 @@
     <Compile Include="Interfaces\Expirable.cs" />
     <Compile Include="Interfaces\ICustomerWorkable.cs" />
     <Compile Include="ItemShop\Clothe.cs" />
+    <Compile Include="ItemShop\ClotheItem\Jeans.cs" />
     <Compile Include="ItemShop\ClotheItem\Mike.cs" />
     <Compile Include="ItemShop\Domestic.cs" />
+    <Compile Include="ItemShop\DomesticItem\Cleaner.cs" />
     <Compile Include="ItemShop\Food.cs" />
     <Compile Include="ItemShop\FoodItem\Milk.cs" />
     <Compile Include="ItemShop\FoodItem\Sausage.cs" />
@@ -64,8 +66,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ItemShop\DomesticItem\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

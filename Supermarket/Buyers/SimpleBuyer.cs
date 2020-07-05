@@ -6,13 +6,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-class SimpleBuyer : Buyer
+namespace Supermarket.Buyers
 {
-
-    SimpleBuyer(int _d) : base(_d)
+    class SimpleBuyer : Buyer
     {
 
+        public SimpleBuyer(int _d) : base(_d)
+        {
+
+        }
     }
 }
 

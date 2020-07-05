@@ -10,7 +10,7 @@ namespace Supermarket.Interfaces
     {
         void addCustomerToQueue(Buyer buyer_current);
 
-        List<string> processCustomer();
+        void processCustomer();
 
     }
 }
